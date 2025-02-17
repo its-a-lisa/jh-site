@@ -1,0 +1,32 @@
+.root:global(.__wab_instance) {
+  width: 100%;
+  z-index: 0;
+  position: relative;
+  min-width: 0;
+}
+.sectionsHero:global(.__wab_instance) {
+  max-width: 100%;
+  z-index: 100;
+}
+.newLineup:global(.__wab_instance) {
+  max-width: 100%;
+}
+.sectionsComingSoon:global(.__wab_instance) {
+  max-width: 100%;
+}
+.sectionsPathways:global(.__wab_instance) {
+  max-width: 100%;
+  height: auto;
+}
+.sectionsFeatures:global(.__wab_instance) {
+  max-width: 100%;
+}
+.sectionsTestimonials:global(.__wab_instance) {
+  max-width: 100%;
+}
+.sectionsPublications:global(.__wab_instance) {
+  max-width: 100%;
+}
+.sectionsSellingPoints:global(.__wab_instance) {
+  position: relative;
+}

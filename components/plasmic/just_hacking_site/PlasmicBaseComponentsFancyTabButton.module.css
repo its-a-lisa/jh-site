@@ -1,0 +1,67 @@
+.root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-self: flex-start;
+  padding: 0px;
+}
+.rootisActive {
+  justify-content: center;
+  align-items: flex-start;
+}
+.root:hover {
+  justify-content: center;
+  align-items: flex-start;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.2s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+  border-radius: 8px;
+  padding: 16px 8px 16px 24px;
+  border-width: 1px;
+  border-style: none;
+}
+.buttonisActive {
+  background: var(--token-qNtMIzudVv8l);
+  box-shadow: 0px 4px 16px 0px var(--token-ORNntYRrpKT4);
+}
+.root:hover .button {
+  background: var(--token-qNtMIzudVv8l);
+  max-width: none;
+  box-shadow: 0px 4px 16px 0px #00000033;
+}
+.freeBox {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.slotTargetChildrenisActive {
+  color: var(--token-62Ym1hBhMDmQ);
+}
+.root:hover .slotTargetChildren {
+  color: #2198e0;
+}
+.text {
+  white-space: pre;
+  color: var(--token-ROrVK1EEZyq1);
+}
+.textisActive {
+  color: var(--token-62Ym1hBhMDmQ);
+}

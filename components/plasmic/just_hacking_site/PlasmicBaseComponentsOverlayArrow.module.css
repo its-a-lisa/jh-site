@@ -1,0 +1,50 @@
+.root:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.svg {
+  color: var(--token-_lps4TlBsDrd);
+  width: var(--token-ih4_DgPp05qS);
+  height: var(--token-M19TZ_DwGu7r);
+  transform: translateX(0px) translateY(3px) translateZ(0px);
+}
+.root[data-placement="top"] .svg {
+  transform: translateX(0px) translateY(-3px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(180deg);
+}
+.root[data-placement="left"] .svg {
+  transform: translateX(-3px) translateY(0px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(90deg);
+}
+.root[data-placement="right"] .svg {
+  transform: translateX(3px) translateY(0px) translateZ(0px) rotateX(0deg)
+    rotateY(0deg) rotateZ(-90deg);
+}
+.svgtype_primary {
+  color: var(--token-GEceK8npQRws);
+}
+.svgtype_secondary {
+  color: var(--token-I9V_ydJKtGbw);
+}
+.svgtype_neutral {
+  color: var(--token-qrQdoYoUDLOD);
+}
+.svgtype_info {
+  color: var(--token-4WP7eshAjtWn);
+}
+.svgtype_positive {
+  color: var(--token-d9S10Btfo5cv);
+}
+.svgtype_notice {
+  color: var(--token-849MyHkP57-J);
+}
+.svgtype_negative {
+  color: var(--token-kxGwcRWuP9Z7);
+}
+.svgtype_inverse {
+  color: var(--token-IF-CMKMHqsBI);
+}
+.svgtype_clear {
+  color: var(--token-B6cL4utfuHxT);
+}

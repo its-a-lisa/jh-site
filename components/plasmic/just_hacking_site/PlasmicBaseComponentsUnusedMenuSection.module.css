@@ -1,0 +1,12 @@
+.root:global(.__wab_instance) {
+  object-fit: cover;
+  position: relative;
+}
+.headerStack {
+  display: flex;
+  flex-direction: row;
+  padding: var(--token-XBpllTQSIQv-) var(--token-0k9pIkexux9_);
+}
+.slotTargetHeader {
+  font-weight: 600;
+}
