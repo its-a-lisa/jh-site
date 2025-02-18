@@ -24,6 +24,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     >
       <ThemeContext.Provider value={darkMode ? "dark" : undefined}>
     <PlasmicRootProvider Head={Head} Link={Link}>
+    <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+      </Head>
       <Component {...pageProps} />
     </PlasmicRootProvider>
     </ThemeContext.Provider>
